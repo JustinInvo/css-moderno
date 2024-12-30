@@ -4,8 +4,8 @@
 }
 
 :root{
-    --color-titulos: 30px;
-    --color-botones: royalblue;
+    --color-titulos: black;
+    --color-botones: purple;
 }
 
 body{
@@ -46,7 +46,7 @@ body{
 
 .hero__title{
     display: none;
-    transform: var(--transform-title);
+    transform: var(--transform-title, chocolate);
 
 
     font-size: 5rem;
