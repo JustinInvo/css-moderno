@@ -86,19 +86,18 @@ img{
     
 }
 
-/*
+
 .form:has(> input:checked, [type="email"]:focus,  [type="email"]:placeholder-shown ){
     background-color: seagreen;
 }
-*/
+
 
 .form input{
     display: inline-block;
     font: inherit;
 }
 
-/*
+
 [type="email"]:has(~ [type="checkbox"]:checked){
     background-color: crimson;
 }
-*/
